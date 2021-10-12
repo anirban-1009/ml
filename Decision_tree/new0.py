@@ -23,5 +23,5 @@ class purity:
 
 
 m = purity()
-ginni = m.p(45,40)
-print(ginni)
+purity = m.p(45,40)
+print(purity)
