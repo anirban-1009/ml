@@ -1,1 +1,1 @@
-print("Hello World!!")
+Entropy =  -(0.401 * log(0.401) + (1-0.401) * log(1-0.401))
