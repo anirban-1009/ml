@@ -1,6 +1,6 @@
 from math import log
 
-class Entropy:
+class purity:
     def __init__(self):
         self
 
@@ -14,7 +14,14 @@ class Entropy:
 
     def p(self,n,t):
         p = n/(n+t)
-        return p
+        r = input('>')
+        if r[0] == 'g':
+            return self.ginni(p)
 
-m = Entropy()
-print(m.p(45, 40))
+        elif r[0] == 'e':
+            return self.ent(p)
+
+
+m = purity()
+ginni = m.p(45,40)
+print(ginni)
