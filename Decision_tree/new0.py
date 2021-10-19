@@ -23,5 +23,5 @@ class purity:
 
 
 m = purity()
-purity = m.p(45,40)
+purity = m.p(175, 217)
 print(purity)
