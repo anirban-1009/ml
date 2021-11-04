@@ -14,7 +14,7 @@ class purity:
 
     def p(self,n,t):
         p = n/(n+t)
-        r = input('>')
+        r = str(input('>'))
         if r[0] == 'g':
             return self.ginni(p)
 
